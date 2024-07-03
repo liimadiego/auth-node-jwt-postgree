@@ -32,7 +32,7 @@ POST /users: Cria um novo usuário.
 GET /users/:id: Retorna um usuário pelo ID.
 PUT /users/:id: Atualiza um usuário pelo ID.
 
-##Autenticação
+#Autenticação
 POST /auth/login: Cria um token de autenticação JWT.
 ```
 
