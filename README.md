@@ -3,32 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Backend Node.js com TypeScript, Express, JWT e PostgreSQL</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3, h4 {
-            color: #333;
-        }
-        code {
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            padding: 2px 4px;
-            font-family: "Courier New", Courier, monospace;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-            padding: 10px;
-        }
-    </style>
 </head>
 <body>
     <h1>Backend Node.js com TypeScript, Express, JWT e PostgreSQL</h1>
