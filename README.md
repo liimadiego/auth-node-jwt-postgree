@@ -35,9 +35,3 @@ PUT /users/:id: Atualiza um usuário pelo ID.
 #Autenticação
 POST /auth/login: Cria um token de autenticação JWT.
 ```
-
-### Contribuição
-
-```bash
-Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
-```
