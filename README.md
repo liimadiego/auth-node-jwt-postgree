@@ -1,37 +1,37 @@
-# Backend Node.js com TypeScript, Express, JWT e PostgreSQL
+# Node.js backend with TypeScript, Express, JWT, and PostgreSQL
 
-Este projeto é um backend desenvolvido com Node.js, TypeScript e Express, utilizando JWT para autenticação e PostgreSQL como banco de dados. O projeto inclui rotas para criar, editar e consultar usuários, além de uma rota para criar tokens de autenticação. Também estão incluídas migrations e seeds para o banco de dados, e testes unitários com Jest.
+This project is a backend developed with Node.js, TypeScript, and Express, using JWT for authentication and PostgreSQL as the database. The project includes routes for creating, editing, and querying users, as well as a route for creating authentication tokens. Also included are migrations and seeds for the database, and unit tests with Jest.
 
-## Instalação
+## Installation
 
 ```bash
 npm install
 
-# Configuração
-Copie o arquivo .env_example na raiz do projeto e renomeie para .env
-Preencha com as credencias de banco e JWT
+# Configuration
+Copy the .env_example file to the project root and rename it to .env.
+Fill in the database credentials and JWT.
 
 ```
 
 ## Scripts
 
 ```bash
-npm run build: Compila o projeto TypeScript.
-npm start: Inicia o servidor com o código compilado.
-npm run dev: Inicia o servidor em modo de desenvolvimento usando ts-node-dev para recarregar automaticamente as alterações.
-npm run test: Executa os testes unitários com Jest.
-npm run migrate: Executa as migrations do banco de dados usando o Sequelize CLI.
-npm run seed: Popula o banco de dados com dados iniciais usando o Sequelize CLI.
+npm run build: Compiles the TypeScript project.
+npm start: Starts the server with the compiled code.
+npm run dev: Starts the server in development mode using ts-node-dev to automatically reload changes.
+npm run test: Runs unit tests with Jest.
+npm run migrate: Runs database migrations using the Sequelize CLI.
+npm run seed: Populates the database with initial data using the Sequelize CLI.
 ```
 
 ### Endpoints
 
 ```bash
-#Usuários
-POST /users: Cria um novo usuário.
-GET /users/:id: Retorna um usuário pelo ID.
-PUT /users/:id: Atualiza um usuário pelo ID.
+#Users
+POST /users: Creates a new user.
+GET /users/:id: Returns a user by ID.
+PUT /users/:id: Updates a user by ID.
 
-#Autenticação
-POST /auth/login: Cria um token de autenticação JWT.
+#Authentication
+POST /auth/login: Creates a JWT authentication token.
 ```
